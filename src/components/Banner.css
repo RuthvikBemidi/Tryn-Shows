@@ -1,7 +1,6 @@
 .banner {
   color: white;
   object-fit: contain;
-  padding: 100px 0 100px 0;
   height: 500px;
 }
 
@@ -47,6 +46,11 @@
 }
 
 .banner-bottomfade {
-    height: 16.8rem;
-    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.71), #111);
+  height: 16rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.71),
+    #111
+  );
 }
