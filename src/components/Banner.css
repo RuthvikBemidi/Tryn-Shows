@@ -1,0 +1,52 @@
+.banner {
+  color: white;
+  object-fit: contain;
+  padding: 100px 0 100px 0;
+  height: 500px;
+}
+
+.banner-profile {
+  margin-left: 30px;
+  padding-top: 150px;
+  height: 200px;
+}
+
+.movie-title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+
+.movie-overview {
+  width: 45rem;
+  height: 80px;
+  line-height: 1.3;
+  padding-top: 1rem;
+  font-size: 1rem;
+  max-width: 400px;
+  color: rgb(233, 233, 233);
+}
+
+.button {
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  margin: 2rem 2rem 1rem 0;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+.button:hover {
+  color: black;
+  background-color: white;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+
+.banner-bottomfade {
+    height: 16.8rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.71), #111);
+}
