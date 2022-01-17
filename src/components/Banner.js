@@ -39,7 +39,7 @@ export default function Banner() {
                     <button className="button"><b>Play</b></button>
                     <button className="button"><b>My List</b></button>
                 </div>
-                <h1 className="movie-overview">{ truncate(movie?.overview, 150) }</h1>
+                {/* <h1 className="movie-overview">{ truncate(movie?.overview, 150) }</h1> */}
             </div>
             <div className="banner-bottomfade"></div>
         </header>
